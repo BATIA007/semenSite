@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -13,50 +13,138 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Top-Pilates</title>
 </head>
 
 <body>
     <header class="header">
         <div class="header__wrapper wrapper">
+            <div class="header__socials">
+                <a href="mailto:calipso67@mail.ru" class="header__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" fill="#ffffff">
+                        <path
+                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                    </svg>
+                </a>
+                <a href="tel:+375296318486" class="header__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 512 512">
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>
+                </a>
+                <a href="https://instagram.com/pilates_minsk_tanya?igshid=MzRlODBiNWFlZA==" class="header__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg></a>
+                <a href="https://www.tiktok.com/@trenertanya?_t=8eXAovFs3Hx&_r=1" class="header__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 448 512">
+                        <path
+                            d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                    </svg>
+                </a>
+                <a href="https://t.me/pilates_minsk_tanya" class="header__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 496 512">
+                        <path
+                            d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+                    </svg>
+                </a>
+            </div>
             <a class="header__logo" href="./index.html">
                 TOP-PILATES
             </a>
+            <div class="header__burger">
+                <input type="checkbox" id="burger" class="header__burger-input"></input>
+                <label for="burger" class="header__burger-label">
+                    <span class="header__burger-icon"></span>
+                </label>
+                <div class="header__burger-menu">
+                    <div class="header__burger-nav">
+                        <a href="#hero" class="header__burger-link">Главная</a>
+                        <a href="#about" class="header__burger-link">О нас</a>
+                        <a href="#features" class="header__burger-link">О пилатесе</a>
+                        <a href="#information" class="header__burger-link">Видеоуроки</a>
+                        <a href="#order" class="header__burger-link">Как оформить</a>
+                        <a href="#price" class="header__burger-link">Стоимость</a>
+                        <a href="#date" class="header__burger-link">Расписание</a>
+                        <a href="#contacts" class="header__burger-link">Контакты</a>
+                    </div>
+                    <div class="header__socials">
+                        <a href="mailto:calipso67@mail.ru" class="header__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"
+                                fill="#ffffff">
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg>
+                        </a>
+                        <a href="tel:+375296318486" class="header__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/pilates_minsk_tanya?igshid=MzRlODBiNWFlZA=="
+                            class="header__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg></a>
+                        <a href="https://www.tiktok.com/@trenertanya?_t=8eXAovFs3Hx&_r=1" class="header__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                            </svg>
+                        </a>
+                        <a href="https://t.me/pilates_minsk_tanya" class="header__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff"
+                                viewBox="0 0 496 512">
+                                <path
+                                    d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="hero__wrapper wrapper">
                 <div class="hero__left">
-                    <h1 class="hero__title">Профессиональная Пилатес Студия Тани Ореховой</h1>
-                    <p class="hero__subtile">
+                    <h1 data-aos="fade-down" class="hero__title">Профессиональная Пилатес Студия Тани Ореховой</h1>
+                    <p data-aos="fade-right" data-aos-delay="200" class="hero__subtile">
                         <i>«Через 10 уроков вы почувствуете разницу, через 20 вы увидите разницу, а
                             через 30 у вас будет новое тело»</i> - Джозеф Пилатес
                     </p>
-                    <a href="#order" class="hero__order">Заказать видеоурок</a>
+                    <a data-aos="fade-up" data-aos-delay="400" href="#" class="hero__order">Заказать видеоурок</a>
                 </div>
                 <div class="hero__right">
-                    <img width="500" height="667" src="./images/main-1.jpg" alt="main" class="hero__image">
+                    <img data-aos="fade-left" data-aos-delay="600" width="500" height="667" src="./images/main-1.jpg"
+                        alt="main" class="hero__image">
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="about__wrapper wrapper">
-                <h2 class="about__title title">Почему стоит выбрать нас?</h2>
-                <p class="about__text">
+                <h2 data-aos="fade-down" class="about__title title">Почему стоит выбрать нас?</h2>
+                <p data-aos="fade-down" data-aos-delay="300" class="about__text">
                     Если Вы хотите посещать занятия Пилатесом под началом квалифицированного и опытного тренера
                     приглашаю Вас в свою Студию Пилатеса. Моя Студия персональных тренировок оснащена
                     профессиональным
                     оборудования для Пилатеса: Реформер, Кадиллак, Стул, Бочка, Спайн Корректор.
                 </p>
-                <p class="about__text">
+                <p data-aos="fade-down" data-aos-delay="600" class="about__text">
                     Я являюсь дипломированным тренером по Пилатесу: прошла полный курс подготовки
                     профессионала высокого уровня в школе Lolita"s Legasy, созданный ученицей Д.Пилатеса Лоитой Сан
                     Мигель (США). Диплом Lolita's Legasy признан РМА.
                 </p>
             </div>
         </section>
-        <section class="features">
+        <section id="features" class="features">
             <div class="features__wrapper wrapper">
                 <div class="features__left">
                     <div class="features__image-container">
@@ -65,24 +153,24 @@
                     </div>
                 </div>
                 <div class="features__right">
-                    <h2 class="features__title title">Зачем заниматся пилатесом?</h2>
+                    <h2 data-aos="fade-down" class="features__title title">Зачем заниматся пилатесом?</h2>
                     <ul class="features__list">
-                        <li class="features__link">
+                        <li data-aos="fade-left" data-aos-delay="200" class="features__link">
                             <p class="features__text">Плавное и безопасное растяжение делает суставы более подвижными и
                                 развивает гибкость мышц.
                             </p>
                         </li>
-                        <li class="features__link">
+                        <li data-aos="fade-left" data-aos-delay="400" class="features__link">
                             <p class="features__text">Занятия Пилатесом помогут Вам улучшить баланс и координацию
                                 движений, а также снимут стресс.
                             </p>
                         </li>
-                        <li class="features__link">
+                        <li data-aos="fade-left" data-aos-delay="600" class="features__link">
                             <p class="features__text">Во время занятий работают все группы мышц, особенно мышцы кора и
                                 суставы, укрепляются мышцы стабилизаторы.
                             </p>
                         </li>
-                        <li class="features__link">
+                        <li data-aos="fade-left" data-aos-delay="800" class="features__link">
                             <p class="features__text">Каждое движение направлено на мягкое растяжение, делая мышцы
                                 эластичнее и длиннее.
                             </p>
@@ -91,11 +179,12 @@
                 </div>
             </div>
         </section>
-        <section class="information">
+        <section id="information" class="information">
             <div class="information__wrapper wrapper">
-                <h2 class="information__title title">Видеоуроки</h2>
-                <h3 class="information__subtitle">45 минутный урок «выпрями спину» с Таней Ореховой</h3>
-                <div class="information__description">
+                <h2 data-aos="fade-down" class="information__title title">Видеоуроки</h2>
+                <h3 data-aos="fade-right" data-aos-delay="200" class="information__subtitle">45 минутный урок «выпрями
+                    спину» с Таней Ореховой</h3>
+                <div data-aos="fade-down" data-aos-delay="400" class="information__description">
                     <p>Автор урока Орехова Татьяна дипломированный тренер по пилатесу ,выпускница американской
                         школы Lolitas Legacy. Опыт преподавания больше 20 лет. «Правильная техника выполнения и
                         регулярность - залог вашего успеха». На Emil присылайте видео ваших тренеровок для
@@ -104,51 +193,61 @@
                 </div>
                 <div class="information__grid">
                     <div class="information__left">
-                        <h4 class="information__for">Для кого эта программа?<br> Если у вас совпадает несколько
+                        <h4 data-aos="fade-down" class="information__for">Для кого эта программа?<br> Если у вас
+                            совпадает несколько
                             пунктов-однозначно для вас.
                         </h4>
                         <ul class="information__list">
-                            <li>1. Сутулость дискомфорт в шее и позвоночнике</li>
-                            <li>2. Остеохондроз</li>
-                            <li>3. Нарушение осанки: Кифоз сколиоз холка</li>
-                            <li>4. Головные боли</li>
-                            <li>5. Работа в офисе много сидите за персональным компьютером
+                            <li data-aos="fade-left" data-aos-delay="200">1. Сутулость дискомфорт в шее и позвоночнике
                             </li>
-                            <li>6. Проблемы с дыхательным аппаратом с ЖКТ</li>
-                            <li>7. Грыжи, протрузии позвоночника</li>
-                            <li>8. Периодически немеют руки и ноги, звон в ушах</li>
-                            <li>9. Гормональные нарушения</li>
-                            <li>10. Скованность позвоночника, быстрое утомляемость</li>
+                            <li data-aos="fade-left" data-aos-delay="400">2. Остеохондроз</li>
+                            <li data-aos="fade-left" data-aos-delay="600">3. Нарушение осанки: Кифоз сколиоз холка</li>
+                            <li data-aos="fade-left" data-aos-delay="800">4. Головные боли</li>
+                            <li data-aos="fade-left" data-aos-delay="1000">5. Работа в офисе много сидите за
+                                персональным компьютером
+                            </li>
+                            <li data-aos="fade-left" data-aos-delay="1200">6. Проблемы с дыхательным аппаратом с ЖКТ
+                            </li>
+                            <li data-aos="fade-left" data-aos-delay="1400">7. Грыжи, протрузии позвоночника</li>
+                            <li data-aos="fade-left" data-aos-delay="1600">8. Периодически немеют руки и ноги, звон в
+                                ушах</li>
+                            <li data-aos="fade-left" data-aos-delay="1800">9. Гормональные нарушения</li>
+                            <li data-aos="fade-left" data-aos-delay="2000">10. Скованность позвоночника, быстрое
+                                утомляемость</li>
                         </ul>
                     </div>
-                    <div class="information__middle">
+                    <div data-aos="fade-down" class="information__middle">
                         <h4 class="information__for">Какие мышцы будут работать:</h4>
                         <ul class="information__list">
-                            <li>1. Мышцы спины</li>
-                            <li>2. Мышцы живота</li>
-                            <li>3. Бедра и ягодицы</li>
-                            <li>4. Мышцы тазового дна</li>
-                            <li>5. Диафрагма</li>
+                            <li data-aos="fade-left" data-aos-delay="200">1. Мышцы спины</li>
+                            <li data-aos="fade-left" data-aos-delay="400">2. Мышцы живота</li>
+                            <li data-aos="fade-left" data-aos-delay="600">3. Бедра и ягодицы</li>
+                            <li data-aos="fade-left" data-aos-delay="800">4. Мышцы тазового дна</li>
+                            <li data-aos="fade-left" data-aos-delay="1000">5. Диафрагма</li>
                         </ul>
                     </div>
                     <div class="information__right">
-                        <h4 class="information__for">Цель урока:<br>
+                        <h4 data-aos="fade-down" class="information__for">Цель урока:<br>
                             При регулярном выполнении 2-3 раза в неделю вы быстро обретете:</h4>
                         <ul class="information__list">
-                            <li>1. Потрясающую осанку</li>
-                            <li>2. Уменьшите сутулость и холку</li>
-                            <li>3. Улучшите подвижность грудной клетки , позвоночника и плечевых</li>
-                            <li>4. Улучшите мышцы живота и кора Укрепите мышечный корсет</li>
-                            <li>5. Укрепите мышцы тазового дна</li>
-                            <li>6. Станете обладателем плоского живота</li>
-                            <li>7. Улучшите работу лимфы</li>
-                            <li>8. Избавитесь от отсеков и тусклого цвета лица</li>
-                            <li>9. Улучшите контур и опал лица, уйдет второй подбородок</li>
-                            <li>10. Улучшите дыхательный аппарат</li>
+                            <li data-aos="fade-left" data-aos-delay="200">1. Потрясающую осанку</li>
+                            <li data-aos="fade-left" data-aos-delay="400">2. Уменьшите сутулость и холку</li>
+                            <li data-aos="fade-left" data-aos-delay="600">3. Улучшите подвижность грудной клетки ,
+                                позвоночника и плечевых</li>
+                            <li data-aos="fade-left" data-aos-delay="800">4. Улучшите мышцы живота и кора Укрепите
+                                мышечный корсет</li>
+                            <li data-aos="fade-left" data-aos-delay="1000">5. Укрепите мышцы тазового дна</li>
+                            <li data-aos="fade-left" data-aos-delay="1200">6. Станете обладателем плоского живота</li>
+                            <li data-aos="fade-left" data-aos-delay="1400">7. Улучшите работу лимфы</li>
+                            <li data-aos="fade-left" data-aos-delay="1600">8. Избавитесь от отсеков и тусклого цвета
+                                лица</li>
+                            <li data-aos="fade-left" data-aos-delay="1800">9. Улучшите контур и опал лица, уйдет второй
+                                подбородок</li>
+                            <li data-aos="fade-left" data-aos-delay="2000">10. Улучшите дыхательный аппарат</li>
                         </ul>
                     </div>
                 </div>
-                <div class="information__video">
+                <div data-aos="fade-up" class="information__video">
                     <iframe width="1200" height="700" src="https://www.youtube.com/embed/KVJJx1nfKi8"
                         title="8 августа 2023 г." frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -156,11 +255,12 @@
                 </div>
             </div>
         </section>
-        <section class="order">
+        <section id="order" class="order">
             <div class="order__wrapper wrapper">
-                <h2 class="order__title title">Как оформить заказ?</h2>
-                <p class="order__subtitle">Для заказа видеоурока вам (потом)</p>
-                <div class="order__block">
+                <h2 data-aos="fade-down" class="order__title title">Как оформить заказ?</h2>
+                <p data-aos="fade-right" data-aos-delay="200" class="order__subtitle">Для заказа видеоурока вам (потом)
+                </p>
+                <div data-aos="fade-down" data-aos-delay="400" class="order__block">
                     <h3 class="order__price">Способ оплаты:</h3>
                     <p class="order__price-subtitle">Оплата видеоурока осуществляется
                         банковской платёжной картой через систему
@@ -177,19 +277,19 @@
                         целью подтверждения совершённых операций в случае возникновения спорных ситуаций).
                     </p>
                 </div>
-                <h4 class="order__return">Не получили видеурок?</h4>
-                <p class="order__text">
+                <h4 data-aos="fade-down" class="order__return">Не получили видеурок?</h4>
+                <p data-aos="fade-up" data-aos-delay="200" class="order__text">
                     В случае, если Вы не получили заказ (не оказана услуга), Вам необходимо
                     обратиться (в службу технической
                     поддержки) по телефонам +375 (29) 631-84-86 или e-mail Calipso67@mail.ru. Менеджеры Вас
                     проконсультируют.
                 </p>
-                <p class="order__text">
+                <p data-aos="fade-up" data-aos-delay="400" class="order__text">
                     При оплате банковской платежной картой возврат денежных средств осуществляется на карточку, с
                     которой
                     была произведена оплата".
                 </p>
-                <p class="order__text">
+                <p data-aos="fade-up" data-aos-delay="600" class="order__text">
                     Для возврата видеоурока необходимо связаться с нами по контактным телефонам, электронной почте
                     (контакты
                     указаны на сайте). Отправить письменное заявление (в свободной форме) о возврате денежных средств.
@@ -200,35 +300,38 @@
                 </p>
             </div>
         </section>
-        <section class="price">
+        <section id="price" class="price">
             <div class="price__wrapper wrapper">
-                <h2 class="price__title title">Стоимость</h2>
+                <h2 data-aos="fade-down" class="price__title title">Стоимость</h2>
                 <ul class="price__list">
-                    <li>
+                    <li data-aos="fade-right" data-aos-delay="200">
                         <span class="price__list-title">Персональная тренировка:</span>
                         <p class="price__list-text">
                             <span class="price__lesson">1 урок - 60 руб.</span>
                             <span class="price__abonement">Абонемент на 5 уроков - 250 руб.</span>
                         </p>
                     </li>
-                    <li><span class="price__list-title">Групповая тренировка (6 человек):</span>
+                    <li data-aos="fade-right" data-aos-delay="400"><span class="price__list-title">Групповая тренировка
+                            (6 человек):</span>
                         <p class="price__list-text">
                             <span class="price__lesson">1 урок - 20 руб.</span>
                             <span class="price__abonement">Абонемент на 8 занятий - 100 руб</span>
                         </p>
                     </li>
-                    <li><span class="price__list-title">Групповая тренировка (4 человека):</span>
+                    <li data-aos="fade-right" data-aos-delay="600"><span class="price__list-title">Групповая тренировка
+                            (4 человека):</span>
                         <p class="price__list-text">
                             <span class="price__lesson">1 урок - 30 руб.</span>
                             <span class="price__abonement">Абонемент на 8 занятий - 160руб.</span>
                         </p>
                     </li>
-                    <li><span class="price__list-title">Сплит тренировка на Реформерах:</span>
+                    <li data-aos="fade-right" data-aos-delay="800"><span class="price__list-title">Сплит тренировка на
+                            Реформерах:</span>
                         <p class="price__list-text">
                             <span class="price__lesson">70 руб.</span>
                         </p>
                     </li>
-                    <li><span class="price__list-title">Видеоурок:</span>
+                    <li data-aos="fade-right" data-aos-delay="1000"><span class="price__list-title">Видеоурок:</span>
                         <p class="price__list-text">
                             <span class="price__lesson">69 руб.</span>
                         </p>
@@ -236,11 +339,11 @@
                 </ul>
             </div>
         </section>
-        <section class="date">
+        <section id="date" class="date">
             <div class="date__wrapper wrapper">
-                <h2 class="date__title title">Расписание</h2>
+                <h2 data-aos="fade-down" class="date__title title">Расписание</h2>
                 <ul class="date__list">
-                    <li>
+                    <li data-aos="fade-left" data-aos-delay="200">
                         <span class="date__list-title">Группа 6 человек:</span>
                         <p class="date__list-text">
                             <span class="date__list-date">Вторник - 17:50 и 19:00</span>
@@ -248,20 +351,20 @@
                             <span class="date__list-date">Суббота 12:25</span>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-left" data-aos-delay="400">
                         <span class="date__list-title">Группа 4 человека:</span>
                         <p class="date__list-text">
                             <span class="date__list-date">Среда 15:00, 18:00, 19:00</span>
                             <span class="date__list-date">Пятница 15:00</span>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-left" data-aos-delay="600">
                         <span class="date__list-title">Сплит тренировка:</span>
                         <p class="date__list-text">
                             <span class="date__list-date">По предварительной записи (пару вы подбираете сами)</span>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-left" data-aos-delay="800">
                         <span class="date__list-title"> Персональная тренировка:</span>
                         <p class="date__list-text">
                             <span class="date__list-date">По предварительной записи</span>
@@ -271,7 +374,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
         <div class="footer__wrapper wrapper">
             <div class="footer__top">
                 <a href="./index.html" class="footer__logo">TOP-PILATES</a>
@@ -323,6 +426,10 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
